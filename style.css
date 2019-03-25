@@ -6,6 +6,10 @@
   grid-template-columns: 10% 80% 10%;
 }
 
+.body { 
+  margin: 0;
+}
+
 .box {
   height: 7.4em;
   border-bottom: 0.01em #f2f2f2 solid;
@@ -423,6 +427,8 @@ h3 {
 }
 
 .help {
+  margin: 0;
+  line-height: 2.5em;
   list-style-type: none;
   display: flex;
   padding-left: 0px;
